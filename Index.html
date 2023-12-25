@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Images/ICON2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokshin</title>
+    <link rel="stylesheet" href="Styleindex.css">
+    <script src="https://kit.fontawesome.com/40c7bdfa22.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/jokes.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#More">More</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>We are your trustworthy Genshin Pilot</p>
+                <h1>Hi, what do <span>you</span><br>need?</h1>
+            </div>
+        </div>
+    </div>
+ <!---   ----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/ICON2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Jokshin is a service that provides stuff in Genshin Impact. It is now run by a reliable administrator, but as the service gets increasingly popular, more personnel will be added in the future.</p>
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">About Site</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Availabity</p>
+                        <p class="tab-links" onclick="opentab('Education')">Payment Method</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Admin</span><br>Imanuel Adriano</li>
+                            <li><span>Experience</span><br>Having actively participated in the Genshin Impact community from patch 2.8 to the latest update, I have consistently offered complimentary services to friends, leveraging my extensive experience within the game. Recognizing the surge in Genshin's storage capacity and the game's burgeoning popularity, I have strategically decided to transform my passion into a professional venture. With a keen understanding of the evolving dynamics of the game and an unwavering commitment to delivering exceptional services, I am excited to announce the launch of my Genshin Impact-related business. This endeavor aims to meet the increasing demand for specialized assistance within the Genshin Impact community, providing tailored solutions for enthusiasts seeking an enhanced gaming experience.</li>
+                            <li><span>Operating since</span><br>End of December 2023</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Monday</span><br>9:00a.m-9:00p.m (UTC +08:00)</li>
+                            <li><span>Tuesday</span><br>9:00a.m-9:00p.m (UTC +08:00)</li>
+                            <li><span>Wednesday</span><br>9:00a.m-9:00p.m (UTC +08:00)</li>
+                            <li><span>Thursday</span><br>9:00a.m-9:00p.m (UTC +08:00)</li>
+                            <li><span>Friday</span><br>9:00a.m-9:00p.m (UTC +08:00)</li>
+                            <li><span>Saturday</span><br>9:00a.m-9:00p.m (UTC +08:00)</li>
+                            <li><span>Sunday</span><br>1:00p.m-9:00p.m (UTC +08:00)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Method</span><br>Prepayment or Half-Payment, you choose! :)</li>
+                            <li><span>Via (Universal)</span><br>Paypal</li>
+                            <li><span>Via (Philippines)</span><br>Gcash</li>
+                            <li><span>Via (Indoesia)</span><br>Dana, BCA(Virtual Account)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-meteor"></i>
+                <h2>Oculi</h2>
+                <p>Collectible orbs of elemental energy that can be offered to their corresponding Statue of The Seven for rewards.</p>
+                <a href="Images/Overall oculus.pdf">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <h2>Account Maintenance</h2>
+                <p>Services Includes:</p>
+                <p>Daily Welkin (if applicable), Daily Commisions, Expedition, Resin burn and more.</p>
+                <a href="Images/Overall Maintenance.pdf">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2>Item Collection</h2>
+                <p>We'll gather the items and boss materials that you request:</p>
+                <p>Ascenscion Material Farming, Crystal Core, Wood, Mineral and Others.</p>
+                <a href="Images/Overall item.pdf">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------portofolio------- -->
+<div id="More">
+    <div class="container">
+        <h1 class="sub-title">More Services</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/Events2.png">
+                <div class="layer">
+                    <h3>Events</h3>
+                    <p>Events are limited time activities in Genshin Impact that allows the player to earn rewards. </p>
+                <a href="Images/pdfresizer.com-pdf-resize.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/MAP2.png">
+                <div class="layer">
+                    <h3>Map Exploration</h3>
+                    <p>Exploration in the world of Teyvat can lead to encounters with various Puzzles, Enemies, Objects, and Materials.</p>
+                    <p>Price may vary on your current progress.</p>
+                <a href="Images/ilovepdf_merged.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/spiral2.png">
+                <div class="layer">
+                    <h3>Spiral Abyss</h3>
+                    <p>Spiral Abyss is a special domain in Genshin Impact where you can challenge different enemies and get rewards with strict restriction and highest difficulity.</p>
+                <a href="Images/Overall abyss.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Originaljokshin@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>089669102920</p>
+                <p><i class="fa-brands fa-twitter"></i>JokshinOri</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ir.gano/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.link/7mf1wf"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://twitter.com/JokshinOri"><i class="fa-brands fa-square-twitter"></i> </a>
+                </div>
+                <a href="Images/Overall.pdf" download class="btn btn2">Download Pricelist</a>
+            </div>
+            <div class="contact-right">
+                <form action="#">
+                    <input type="text" placeholder="Your Name" required id="Name" class="item" autocomplete="off">
+                    <input type="text" placeholder="Your Email" required id="Email" class="item">
+                    <textarea name="" rows="6" placeholder="Your Message" id="subject" class="item" autocomplete="off"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Jokshin. Made by <i class="fa-solid fa-shield-halved"></i> Adriano </p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
